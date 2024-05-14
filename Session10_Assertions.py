@@ -138,10 +138,10 @@ sleep(1)
 try:
     # driver.find_element(AppiumBy.ID, 'dddd') #NoSuchElementException
     views_element.click() # StaleElementReferenceException
-except NoSuchElementException:
+except NoSuchElementException:// in aslan dakhele dom nis
     print("Element is not in DOM")
 
-except StaleElementReferenceException:
+except StaleElementReferenceException: // in dakhele dom has alan dide nemishe 
     print("Stale Element Error raised")
 finally:
     print("After handling exception")
